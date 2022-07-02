@@ -59,8 +59,8 @@ class SimaduDataCommand extends Command
 
     public function collectingData()
     {
-        $url = 'http://simadu.test/api/v1/data/pegawai';
-        if ($this->option('with-credential')) $url = 'http://simadu.test/api/v1/data/pegawai-with-credential';
+        $url = 'https://simadu.politap.ac.id/api/v1/data/pegawai';
+        if ($this->option('with-credential')) $url = 'https://simadu.politap.ac.id/api/v1/data/pegawai-with-credential';
         $this->info('Prepare Secure Request');
         $request = SecureRequest::init();
         $this->info('Calling API');
