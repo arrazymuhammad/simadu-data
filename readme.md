@@ -13,10 +13,6 @@ Use [Composer](https://getcomposer.org/) to install the library. Also make sure 
 composer install arrazy/simadu-data
 ```
 
-Publish database migration to your local database with the publish command:
-```shell
-php artisan vendor:publish --provider="Razy\SimaduData\ServiceProvider"
-```
 ## Usage
 
 Run Synchronizer Data using command:
