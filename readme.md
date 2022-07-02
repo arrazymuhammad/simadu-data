@@ -10,7 +10,7 @@ Simadu Data is a Simadu Public Data Synchronizer for Internal Laravel Project Us
 Use [Composer](https://getcomposer.org/) to install the library. Also make sure you have installed and configured the [Laravel](https://laravel.com) project.
 
 ```shell
-composer install arrazy/simadu-data
+composer require arrazy/simadu-data
 ```
 
 ## Usage
